@@ -2,7 +2,6 @@ from .text_utils import split_words
 
 
 def compare_texts(text1, text2):
-    """مقارنة نصين وإرجاع إحصائيات بسيطة."""
     words1 = set(split_words(text1))
     words2 = set(split_words(text2))
 
